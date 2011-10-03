@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE260EED141E90FA00D776EB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE260EEC141E90FA00D776EB /* Cocoa.framework */; };
+		BE260EF7141E90FA00D776EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE260EF5141E90FA00D776EB /* InfoPlist.strings */; };
+		BE260EF9141E90FA00D776EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE260EF8141E90FA00D776EB /* main.m */; };
+		BE260EFD141E90FA00D776EB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BE260EFB141E90FA00D776EB /* Credits.rtf */; };
+		BE260F00141E90FA00D776EB /* CocoaServerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE260EFF141E90FA00D776EB /* CocoaServerAppDelegate.m */; };
+		BE260F03141E90FA00D776EB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE260F01141E90FA00D776EB /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE260EE8141E90FA00D776EB /* CocoaServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE260EEC141E90FA00D776EB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BE260EEF141E90FA00D776EB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BE260EF0141E90FA00D776EB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BE260EF1141E90FA00D776EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE260EF4141E90FA00D776EB /* CocoaServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaServer-Info.plist"; sourceTree = "<group>"; };
+		BE260EF6141E90FA00D776EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE260EF8141E90FA00D776EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE260EFA141E90FA00D776EB /* CocoaServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaServer-Prefix.pch"; sourceTree = "<group>"; };
+		BE260EFC141E90FA00D776EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BE260EFE141E90FA00D776EB /* CocoaServerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaServerAppDelegate.h; sourceTree = "<group>"; };
+		BE260EFF141E90FA00D776EB /* CocoaServerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaServerAppDelegate.m; sourceTree = "<group>"; };
+		BE260F02141E90FA00D776EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE260EE5141E90FA00D776EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE260EED141E90FA00D776EB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE260EDD141E90F900D776EB = {
+			isa = PBXGroup;
+			children = (
+				BE260EF2141E90FA00D776EB /* CocoaServer */,
+				BE260EEB141E90FA00D776EB /* Frameworks */,
+				BE260EE9141E90FA00D776EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE260EE9141E90FA00D776EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE260EE8141E90FA00D776EB /* CocoaServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE260EEB141E90FA00D776EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE260EEC141E90FA00D776EB /* Cocoa.framework */,
+				BE260EEE141E90FA00D776EB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE260EEE141E90FA00D776EB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE260EEF141E90FA00D776EB /* AppKit.framework */,
+				BE260EF0141E90FA00D776EB /* CoreData.framework */,
+				BE260EF1141E90FA00D776EB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BE260EF2141E90FA00D776EB /* CocoaServer */ = {
+			isa = PBXGroup;
+			children = (
+				BE260EFE141E90FA00D776EB /* CocoaServerAppDelegate.h */,
+				BE260EFF141E90FA00D776EB /* CocoaServerAppDelegate.m */,
+				BE260F01141E90FA00D776EB /* MainMenu.xib */,
+				BE260EF3141E90FA00D776EB /* Supporting Files */,
+			);
+			path = CocoaServer;
+			sourceTree = "<group>";
+		};
+		BE260EF3141E90FA00D776EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE260EF4141E90FA00D776EB /* CocoaServer-Info.plist */,
+				BE260EF5141E90FA00D776EB /* InfoPlist.strings */,
+				BE260EF8141E90FA00D776EB /* main.m */,
+				BE260EFA141E90FA00D776EB /* CocoaServer-Prefix.pch */,
+				BE260EFB141E90FA00D776EB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE260EE7141E90FA00D776EB /* CocoaServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE260F06141E90FA00D776EB /* Build configuration list for PBXNativeTarget "CocoaServer" */;
+			buildPhases = (
+				BE260EE4141E90FA00D776EB /* Sources */,
+				BE260EE5141E90FA00D776EB /* Frameworks */,
+				BE260EE6141E90FA00D776EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaServer;
+			productName = CocoaServer;
+			productReference = BE260EE8141E90FA00D776EB /* CocoaServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE260EDF141E90F900D776EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BE260EE2141E90F900D776EB /* Build configuration list for PBXProject "CocoaServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE260EDD141E90F900D776EB;
+			productRefGroup = BE260EE9141E90FA00D776EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE260EE7141E90FA00D776EB /* CocoaServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE260EE6141E90FA00D776EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE260EF7141E90FA00D776EB /* InfoPlist.strings in Resources */,
+				BE260EFD141E90FA00D776EB /* Credits.rtf in Resources */,
+				BE260F03141E90FA00D776EB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE260EE4141E90FA00D776EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE260EF9141E90FA00D776EB /* main.m in Sources */,
+				BE260F00141E90FA00D776EB /* CocoaServerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE260EF5141E90FA00D776EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE260EF6141E90FA00D776EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE260EFB141E90FA00D776EB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE260EFC141E90FA00D776EB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BE260F01141E90FA00D776EB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE260F02141E90FA00D776EB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE260F04141E90FA00D776EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE260F05141E90FA00D776EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE260F07141E90FA00D776EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaServer/CocoaServer-Prefix.pch";
+				INFOPLIST_FILE = "CocoaServer/CocoaServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE260F08141E90FA00D776EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaServer/CocoaServer-Prefix.pch";
+				INFOPLIST_FILE = "CocoaServer/CocoaServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE260EE2141E90F900D776EB /* Build configuration list for PBXProject "CocoaServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE260F04141E90FA00D776EB /* Debug */,
+				BE260F05141E90FA00D776EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE260F06141E90FA00D776EB /* Build configuration list for PBXNativeTarget "CocoaServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE260F07141E90FA00D776EB /* Debug */,
+				BE260F08141E90FA00D776EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE260EDF141E90F900D776EB /* Project object */;
+}
