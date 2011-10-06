@@ -29,11 +29,22 @@
     return self;
 }
 
+- (BOOL)respondsToSelector:(SEL)aSelector
+{
+    NSString *sel = NSStringFromSelector(aSelector);
+    BOOL superResult = [super respondsToSelector:aSelector];
+    
+    NSString *result = (superResult) ? @"Yes" : @"No";
+    NSLog(@"Responds to %@? %@",sel,result);
+    
+    return superResult;
+}
+
 - (void)locationManager:(CLLocationManager *)manager
     didUpdateToLocation:(CLLocation *)newLocation
            fromLocation:(CLLocation *)oldLocation
 {
-    NSLog(@"%@", newLocation);
+//    NSLog(@"%@", newLocation);
 }
 
 - (void)locationManager:(CLLocationManager *)manager

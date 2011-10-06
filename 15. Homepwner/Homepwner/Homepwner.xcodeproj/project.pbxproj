@@ -22,6 +22,7 @@
 		BE95AA4E141ADC9000786D4B /* FileHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95AA4D141ADC9000786D4B /* FileHelpers.m */; };
 		BE95AA56141AE6C600786D4B /* HomepwnerItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95AA55141AE6C600786D4B /* HomepwnerItemCell.m */; };
 		BE95AA59141AE8D300786D4B /* HomepwnerItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE95AA58141AE8D300786D4B /* HomepwnerItemCell.xib */; };
+		CD87EDB2143DEBBE0094C75D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD87EDB1143DEBBE0094C75D /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		BE95AA54141AE6C600786D4B /* HomepwnerItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomepwnerItemCell.h; sourceTree = "<group>"; };
 		BE95AA55141AE6C600786D4B /* HomepwnerItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomepwnerItemCell.m; sourceTree = "<group>"; };
 		BE95AA58141AE8D300786D4B /* HomepwnerItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomepwnerItemCell.xib; path = Homepwner/HomepwnerItemCell.xib; sourceTree = "<group>"; };
+		CD87EDB1143DEBBE0094C75D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD87EDB2143DEBBE0094C75D /* CoreData.framework in Frameworks */,
 				BE58D93C141C24C400507D76 /* CoreGraphics.framework in Frameworks */,
 				BE4E18E8140D9EB80007F01B /* UIKit.framework in Frameworks */,
 				BE4E18EA140D9EB80007F01B /* Foundation.framework in Frameworks */,
@@ -70,6 +73,7 @@
 		BE4E18D8140D9EB80007F01B = {
 			isa = PBXGroup;
 			children = (
+				CD87EDB1143DEBBE0094C75D /* CoreData.framework */,
 				BE58D93B141C24C400507D76 /* CoreGraphics.framework */,
 				BE0B750114191AEE00118DD7 /* BNRImageStore.h */,
 				BE0B750214191AEE00118DD7 /* BNRImageStore.m */,

@@ -127,6 +127,9 @@
 /* Begin PBXProject section */
 		BE77EFEE13E5D5250001988F /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = BE77EFF113E5D5250001988F /* Build configuration list for PBXProject "Whereami" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
